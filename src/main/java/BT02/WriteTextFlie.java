@@ -18,14 +18,12 @@ public class WriteTextFlie {
         ArrayList<SanPham> ds = new ArrayList<>();
         ds.add(new SanPham("SP01", "Gao", 30000));
         ds.add(new SanPham("SP02", "Duong", 45000));
-        ds.add(new SanPham("SP03", "Sua", 75000));
-        ds.add(new SanPham("SP03", "Dau", 75000));
-        ds.add(new SanPham("SP03", "Mi", 75000));
-        ds.add(new SanPham("SP03", "CoCa", 75000));
-        ds.add(new SanPham("SP03", "Sua", 75000));
-        ds.add(new SanPham("SP03", "Sua", 75000));
-        ds.add(new SanPham("SP03", "Sua", 75000));
-        ds.add(new SanPham("SP03", "Sua", 75000));
+        ds.add(new SanPham("SP03", "Sua", 25000));
+        ds.add(new SanPham("SP04", "Dau", 15000));
+        ds.add(new SanPham("SP05", "Mi", 65000));
+        ds.add(new SanPham("SP06", "CoCa", 25000));
+        ds.add(new SanPham("SP07", "Pesi", 25000));
+        ds.add(new SanPham("SP08", "Thuoc", 35000));
         try {
             FileOutputStream fos = new FileOutputStream("sanpham.bin");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
